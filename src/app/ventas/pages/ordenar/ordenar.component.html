@@ -1,0 +1,44 @@
+<div class="text-layout">
+    <h1>Pipes personalizados</h1>
+    <p>Pipes creados por {{palabra|mayusculas:valor}}</p>
+
+    
+</div>
+
+
+<p-toolbar>
+  <div class="p-toolbar-group-left"></div>
+  
+  <div class="p-toolbar-group-right">
+
+    <button (click)="mayusculas(valor)"
+              pButton class="p-button-info"
+              label="Toogle mayusculas" 
+              class="mr-1 p-button-warning">
+      </button>
+
+    <button pButton
+            icon="pi-sort"
+            label="Por Nombre"
+            class="mr-1"
+            >
+      
+    </button>
+    <button pButton
+            icon="pi-sort"
+            label="Valores"
+            class="mr-1 p-button-success"
+            >
+      
+    </button>
+    <button pButton
+            icon="pi-sort"
+            label="Por color"
+            class="mr-2 p-button-help"
+            >
+      
+    </button>
+
+  </div>
+</p-toolbar>
+
